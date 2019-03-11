@@ -1,7 +1,19 @@
 import React, { Component } from 'react';
 
-import './StarwarsComponent.css';
+import './StarWars.css';
 import CharacterComponent from './CharacterComponent';
+
+const characterImages = [
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/1.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/2.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/3.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/4.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/5.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/6.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/7.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/9.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/10.jpg?raw=true',
+]
 
 class App extends Component {
   constructor() {
@@ -37,8 +49,14 @@ class App extends Component {
         <h1 className="Header">Star Wars Characters</h1>
 
         <div>
-          {this.state.starwarsChars.map(eaCharacter => (
-            <CharacterComponent character={eaCharacter} key={eaCharacter.name}/>          ))}
+          {/* characterImages.map(charImage => (
+            
+          )) */}
+          
+          {this.state.starwarsChars.map(eaCharacter => ( 
+            <CharacterComponent character={eaCharacter} key={eaCharacter.name}/>
+          ))} 
+          
         </div>
       </div>
     );

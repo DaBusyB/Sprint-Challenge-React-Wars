@@ -1,0 +1,15 @@
+.char-card {
+    border: 2px solid yellow;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.char-info {
+    text-align: center;
+    
+}
+
