@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './StarWars.css';
 import CharacterComponent from './CharacterComponent';
+import CharImage from './CharImage';
 
 const characterImages = [
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/1.jpg?raw=true', 
@@ -46,17 +47,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Header">Star Wars Characters</h1>
+        <h1 className="header">Star Wars Characters</h1>
 
         <div>
-          {/* characterImages.map(charImage => (
-            
-          )) */}
+ 
+          {this.state.starwarsChars.map((eaCharacter, index )=> ( 
+            <CharacterComponent img={characterImages[index]} character={eaCharacter} key={eaCharacter.name}/>
           
-          {this.state.starwarsChars.map(eaCharacter => ( 
-            <CharacterComponent character={eaCharacter} key={eaCharacter.name}/>
-          ))} 
-          
+          ))}
+
         </div>
       </div>
     );

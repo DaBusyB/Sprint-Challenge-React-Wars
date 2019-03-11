@@ -1,15 +1,22 @@
+.header {
+    text-align: center;
+}
+
 .char-card {
     border: 2px solid yellow;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 550px;
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius: 10px;
-
 }
 
 .char-info {
     text-align: center;
-    
+}
+
+.char-info img {
+    width: 300px;
+    height: 320px;
 }
 
