@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import './StarWars.css';
+import './StarwarsComponent.css';
 import CharacterComponent from './CharacterComponent';
-import CharImage from './CharImage';
 
 const characterImages = [
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/1.jpg?raw=true', 
