@@ -12,6 +12,7 @@ const characterImages = [
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/5.jpg?raw=true', 
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/6.jpg?raw=true', 
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/7.jpg?raw=true', 
+  'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/8.jpg?raw=true',
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/9.jpg?raw=true', 
   'https://github.com/tbone849/star-wars-guide/blob/master/build/assets/img/characters/10.jpg?raw=true',
 ]

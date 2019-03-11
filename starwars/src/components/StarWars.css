@@ -1,5 +1,7 @@
 .header {
     text-align: center;
+    color: yellow;
+    margin-bottom: 30px;
 }
 
 .char-card {
@@ -9,14 +11,18 @@
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius: 10px;
+    background-color: black;
 }
 
 .char-info {
     text-align: center;
+    color: dodgerblue;
 }
 
 .char-info img {
     width: 300px;
     height: 320px;
 }
+
+
 
